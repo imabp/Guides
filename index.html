@@ -1,48 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+        crossorigin="anonymous" />
     <title>Guides</title>
 </head>
+
 <body>
     <center>
         <h1>
-            Guides
+            Guides- Leverage Yourself
         </h1>
         <sub>
-            <a class="subStart" href="https://linkedin.com/in/imabp">I</a> find time to write these posts and articles <br/>
-            to help the students and starters to get started with real world software development.
+            <a class="subStart" href="https://linkedin.com/in/imabp">I</a> find it a phenomenal experience while writing posts and articles
+            <br />
+            to help the students and starters to get started with real-world software development.
+       
         </sub>
+
     </center>
+    <div id="content">
+       
+        <iframe class="hoverable" src="https://www.linkedin.com/embed/feed/update/urn:li:share:6725741075388092416" width="300px" height="800" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe class="hoverable" src="https://www.linkedin.com/embed/feed/update/urn:li:share:6727966703654989824" width="300px" height="800"  frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+    </div>
+    <div class="buyusacoffee">
+    <center>
+
+        <h2>Support</h2>
+        <sub>    If you feel its of worth, it motivates me to write super productive articles.<br/>
+         You can support these efforts and the time. 🔽 <br/> 
+            <a href="https://www.buymeacoffee.com/ciyCqvE" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>       
+            <br/><br/>
+           Written With ❤ by <a href="https://github.com/imabp">imabp</a> aka <a href="https://twitter.com/imabptweets">Abir</a>
+        </sub>
+        </center>
+
+    </div>
 </body>
+
 </html>
 <style>
-    *{
-        box-sizing: border-box;
-        margin-top:14px;
-    }
-    h1{
-    font-family: 'Cherry Swash', cursive;
-    font-size: 50px;
-    }
-    body{
+    body {
         background-color: #FFC803;
     }
-    sub{
+
+    * {
+        box-sizing: border-box;
+        margin-top: 14px;
+    }
+
+    h1 {
+        font-family: 'Cherry Swash', cursive;
+        font-size: 50px;
+    }
+
+    h2 {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 25px;
-        font-weight: 500;
-        word-wrap:break-word;
     }
-    .subStart{
-        font-size: xxx-large;
-    }
-    a{
+
+    a {
         text-decoration: none;
         background-color: azure;
         border-radius: 5px;
+        padding: 5px;
     }
+    .hoverable{
+        width:500px;
+    }
+    
+
+    sub {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        word-wrap: break-word;
+    }
+
+    .subStart {
+        font-size: xxx-large;
+    }
+    #content{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       justify-content: space-around;
+    }
+    iframe{
+        border:10px dashed black;
+        border-radius: 20px;
+    }
+    .buyusacoffee{
+        margin-bottom: 30px;
+    }
+    
+@media screen and (max-width:900px)
+{
+   .hoverable{
+        width:300px;
+     
+    }
+    
+    
+}
+
 </style>
